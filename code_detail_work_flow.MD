@@ -11,6 +11,17 @@ pip install pandas google-cloud-bigquery pandas-gbq pdfplumber requests fake_use
 Class Overview
 The PDFLinkExtractor class has the following main responsibilities:
 
+
+bigquery table structure
+field name	    	type	
+company_id		    STRING	
+company_name		  STRING	
+sr_pdf_link		    STRING	
+links_with_pgno		STRING	
+links_pdf		      STRING	
+inserted_dt		    TIMESTAMP	
+updated_dt		    TIMESTAMP	
+
 Download a PDF from the web.
 Extract links from the PDF.
 Insert or update the extracted links into a BigQuery table.
