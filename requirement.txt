@@ -1,0 +1,7 @@
+google-cloud-bigquery==3.12.0
+google-cloud-storage==2.12.0
+requests
+pandas==2.1.1
+pandas_gbq
+pdfplumber==0.11.4
+fake-useragent==1.5.1
